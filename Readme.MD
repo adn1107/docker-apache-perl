@@ -6,6 +6,6 @@ cd docker-apache-perl
 
 docker build -t docker-apache-perl .
 
-docker run -v c:/www:/var/www/html -p 8081:80 -d docker-apache-perl /usr/sbin/apache2ctl -D FOREGROUND
+docker run -v c:/www:/var/www/html -p 8081:81 -d docker-apache-perl /usr/sbin/apache2ctl -D FOREGROUND
 
 Access http://localhost
